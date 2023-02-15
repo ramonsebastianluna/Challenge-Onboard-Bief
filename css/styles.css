@@ -1,0 +1,55 @@
+/*Variables*/
+:root {
+    --color1: #427783;
+    --color2: #f89572;
+    --color3: #000000;
+}
+
+/*Fonts*/
+p, .slide{
+    font-family: 'Poppins', sans-serif;
+    color: var(--color2)
+}
+
+/*Clases sobreescritas*/
+.text-primary { 
+    color: var(--color1) !important; 
+}
+
+.bg-secondary {
+    background-color: var(--color2) !important;
+}
+
+/*Imágenes*/
+.img-1 {
+    background: url("../assets/imagen-1.jpg") center / cover no-repeat;
+    height: 100vh;
+}
+
+.img-2{
+    background: url("../assets/imagen-2.jpg") center / cover no-repeat;
+}
+
+.img-3 {
+    background: url("../assets/imagen-3.svg") top / contain no-repeat;
+    opacity: 0.7;
+}
+
+.img-4 {
+    background: url("../assets/imagen-4.svg") center / contain no-repeat;
+    height: 30px;
+    width: 30px;
+}
+
+/*Otros*/
+.line {
+    width: 50px;
+    height: 2%;
+    border-radius: 5px;
+    background-color: var(--color1);
+}
+
+.relative-left {
+    position: relative;
+    left: -15%;
+}
